@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Windows
+Comment=Windows
+GenericName=Utilities
+Exec=sh -c "virt-viewer --connect qemu:///system win11"
+Icon=/home/thomas/.local/share/vmlauncher/microsoft.png
+Type=Application
+StartupNotify=true
+StartupWMClass=virt-viewer
+Categories=GNOME;GTK;Utility;
+MimeType=text/plain;
+Terminal=false
+
